@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*------------------------------------------------------------
+	初期設定
+------------------------------------------------------------*/
+html, body, div, span, iframe, p, nav, small,
+a, address, cite, code, em, font, img, dl, dt, dd, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+	outline: 0;
+	font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+/*------------------------------------------------------------
+	ヘッダー(タイトル、メニュー)
+------------------------------------------------------------*/
+#header {
+  width: 100%;
+  background-color: #32CD32;
+  color: #ffffff;
+}
+
+/*アイコン*/
+#icon li {
+  display: inline;
+  float: right;
+  padding: 7px;
+}
+
+/*タイトル*/
+#title #sub-title {
+  padding: 10px;
+}
+
+#title #title-english {
+  letter-spacing: 7px;
+}
+
+#title #logo {
+  padding: 0 15px 0;
+  float: left;
+}
+
+/*メニュー*/
+#menu {
+  clear: both;
+  padding: 20px;
+}
+
+#menu li {
+  display: inline-flex;
+  background-color: #ffffff;
+}
+
+#menu li a {
+  text-decoration: none;
+  padding:  17px;
+}
+
+#menu li a div {
+  text-align: center;
+  color: #008000;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 2px;
+}
+
+#menu a:hover {
+  color: white;
+  background-color: #87CEEB;
+}
+
+/*------------------------------------------------------------
+	メイン(summary、お知らせ)
+------------------------------------------------------------*/
+#main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#main h2 {
+  background: linear-gradient(transparent 70%, limegreen 30%);
+  width: 960px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+/*summary*/
+#main #summary p {
+  padding: 10px 10px;
+  background-color: white;
+  box-shadow: 0 1px 6px #56638F;
+}
+
+#main section h4 {
+  padding: 10px 10px;
+  background-color: white;
+  box-shadow: 0 1px 6px #56638F;
+  padding: 30px 30px;
+}
+
+#main section h4 a {
+  padding: 0 30px;
+}
+
+
+
+/*------------------------------------------------------------
+	フッター(ページトップ、コピーライト)
+------------------------------------------------------------*/
+footer {
+  margin-top: 80px;
+}
+
+#copyright {
+  background-color: #32CD32;
+  color: white;
+  text-align: right;
+  margin-bottom: 0;
+}
