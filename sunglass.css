@@ -83,7 +83,7 @@ li {
 }
 
 /*------------------------------------------------------------
-	メイン(summary、お知らせ)
+	メイン
 ------------------------------------------------------------*/
 #main {
   width: 960px;
@@ -101,13 +101,13 @@ li {
 /*summary*/
 #main #summary p {
   padding: 10px 10px;
-  background-color: white;
+  background-color: #ffffff;
   box-shadow: 0 1px 6px #56638F;
 }
 
+/*お知らせ*/
 #main section h4 {
-  padding: 10px 10px;
-  background-color: white;
+  background-color: #ffffff;
   box-shadow: 0 1px 6px #56638F;
   padding: 30px 30px;
 }
@@ -116,8 +116,13 @@ li {
   padding: 0 30px;
 }
 
-
-
+/*面白い実験*/
+#main #experiment details {
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px #56638F;
+  display: inline-flex;
+  width: 440px;
+}
 /*------------------------------------------------------------
 	フッター(ページトップ、コピーライト)
 ------------------------------------------------------------*/
