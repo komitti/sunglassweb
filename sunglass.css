@@ -105,7 +105,7 @@ li {
   box-shadow: 0 1px 6px #56638F;
 }
 
-/*お知らせ*/
+/*活動記録*/
 #main section h4 {
   background-color: #ffffff;
   box-shadow: 0 1px 6px #56638F;
@@ -116,13 +116,48 @@ li {
   padding: 0 30px;
 }
 
-/*面白い実験*/
+/*面白い科学実験*/
 #main #experiment details {
   background-color: #ffffff;
   box-shadow: 0 1px 6px #56638F;
-  display: inline-flex;
-  width: 440px;
+  border: solid 1px black;
+  border-radius: 9px/9px;
+  width: 650px;
+  margin: 10px;
 }
+
+#main #experiment summary {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+#main #experiment a {
+  text-decoration: none;
+}
+
+#main #experiment a:hover {
+  text-decoration: underline;
+  color: #008000;
+}
+
+#main #experiment article {
+  background-color: #E0FFFF;
+  padding: 5px 20px;
+}
+
+#main #experiment article p {
+  white-space: pre-wrap;
+}
+
+/*面白い科学実験（内容）*/
+#main .contents {
+  text-align: center;
+  text-decoration: underline orange wavy 2px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  font-size: 30px;
+}
+
 /*------------------------------------------------------------
 	フッター(ページトップ、コピーライト)
 ------------------------------------------------------------*/
