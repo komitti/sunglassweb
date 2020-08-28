@@ -62,6 +62,7 @@ li {
 #menu li {
   display: inline-flex;
   background-color: #ffffff;
+  margin: 2px;
 }
 
 #menu li a {
@@ -120,7 +121,6 @@ li {
 #main #experiment details {
   background-color: #ffffff;
   box-shadow: 0 1px 6px #56638F;
-  border: solid 1px black;
   border-radius: 9px/9px;
   width: 650px;
   margin: 10px;
@@ -150,12 +150,30 @@ li {
 }
 
 /*面白い科学実験（内容）*/
-#main .contents {
+#main .science .contents {
   text-align: center;
   text-decoration: underline orange wavy 2px;
   margin-top: 20px;
   margin-bottom: -20px;
   font-size: 30px;
+}
+
+#main .science section {
+  padding: 10px 10px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px #56638F;
+}
+
+#main .science .material li {
+  list-style: disc inside;
+}
+
+#main .science .make li {
+  list-style: decimal inside;
+}
+
+#main .science .attention li {
+  list-style: disc inside;
 }
 
 /*------------------------------------------------------------
