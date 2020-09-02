@@ -23,6 +23,7 @@ menu.innerHTML =
 '<ul>'+
 '<li><a href="../sunglass-home.html">ホーム<div>home</div></a></li>'+
 '<li><a href="../sunglass-experiment.html">おもしろい科学実験<div>experiment</div></a></li>'+
+'<li><a href="../sunglass-kagakunomori.html">科学の森<div>forest</div></a></li>'+
 '<li><a href="">各種活動記録<div>activity</div></a></li>'+
 '<li><a href="../sunglass-member.html">メンバー紹介<div>member</div></a></li>'+
 '</ul>';
