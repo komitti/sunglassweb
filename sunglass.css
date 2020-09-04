@@ -94,7 +94,7 @@ li {
 
 #main h2 {
   background: linear-gradient(transparent 70%, limegreen 30%);
-  width: 960px;
+  width: 943px;
   margin-top: 40px;
   margin-bottom: 20px;
   padding-left: 20px;
@@ -178,9 +178,30 @@ li {
 }
 
 /*メンバー紹介*/
-img {
-  
+#member .sciencelist {
+    background-color: #ffffff;
+    box-shadow: 0 1px 6px #56638F;
+    padding: 16px 8px;
+    display: inline-flex;
+    width: 461px;
+    clear: both;
 }
+
+#member .sciencelist img {
+  width: 180px;
+  height: 180px;
+  float: left;
+}
+
+#member .sciencelist ul {
+  padding: 4px;
+  padding-left: 8px;
+}
+
+#member .sciencelist ul li {
+  font-size: 13.9px;
+}
+
 
 
 /*------------------------------------------------------------
