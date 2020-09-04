@@ -2,21 +2,21 @@ var icon = document.getElementById('icon');
 icon.innerHTML =
 '<li>'+
 '<a href="https://twitter.com/ksu_scs">'+
-'<img src="Twitter_logo.png" class="twitter" width="50px" height="50px">'+
+'<img src="picture/Twitter_logo.png" class="twitter" width="50px" height="50px">'+
 '</a>'+
 '</li>'+
 '<li>'+
 '<a href="https://www.instagram.com/sunglass.ksu/">'+
-'<img src="Insta_logo.png" class="instagram" width="50px" height="50px">'+
+'<img src="picture/Insta_logo.png" class="instagram" width="50px" height="50px">'+
 '</a>'+
 '</li>';
 
 var title = document.getElementById('title');
 title.innerHTML =
 '<h2 id="sub-title">サイエンスコミュニケーション研究会</h2>'+
-'<img src="sunglass_logo.png" id="logo" alt="sunglass" width="87px" height="87px">'+
+'<img src="picture/sunglass_logo.png" id="logo" alt="sunglass" width="87px" height="87px">'+
 '<h1>サングラス</h1>'+
-'<h2 id="title-english">sunglass</h2>';
+'<h2 id="title-english">sunglasses</h2>';
 
 var menu = document.getElementById('menu');
 menu.innerHTML =
