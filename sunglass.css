@@ -62,12 +62,13 @@ li {
 #menu li {
   display: inline-flex;
   background-color: #ffffff;
-  margin: 2px;
+  margin: 3.5px;
 }
 
 #menu li a {
   text-decoration: none;
   padding:  17px;
+  text-align: center;
 }
 
 #menu li a div {
@@ -175,6 +176,12 @@ li {
 #main .science .attention li {
   list-style: disc inside;
 }
+
+/*メンバー紹介*/
+img {
+  
+}
+
 
 /*------------------------------------------------------------
 	フッター(ページトップ、コピーライト)
