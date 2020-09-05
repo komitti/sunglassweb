@@ -100,21 +100,40 @@ li {
   padding-left: 20px;
 }
 
-/*summary*/
+/*概要*/
 #main #summary p {
   padding: 10px 10px;
   background-color: #ffffff;
   box-shadow: 0 1px 6px #56638F;
 }
 
-/*活動記録*/
-#main section h4 {
+/*入部希望者*/
+#main #hope p {
+  padding: 10px 10px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px #56638F;
+}
+
+/*お知らせ*/
+#main #oshirase section h4 {
   background-color: #ffffff;
   box-shadow: 0 1px 6px #56638F;
   padding: 30px 30px;
 }
 
-#main section h4 a {
+#main #oshirase section h4 a {
+  padding: 0 30px;
+}
+
+
+/*活動記録*/
+#main #katsudoukiroku section h4 {
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px #56638F;
+  padding: 30px 30px;
+}
+
+#main #katsudoukiroku section h4 a {
   padding: 0 30px;
 }
 
