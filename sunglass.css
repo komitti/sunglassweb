@@ -114,6 +114,14 @@ li {
   box-shadow: 0 1px 6px #56638F;
 }
 
+/*サングラスのPV*/
+#main #sunglassPV #video {
+  text-align: center;
+}
+#main #sunglassPV video {
+  box-shadow: 0 1px 6px #56638F;
+}
+
 /*お知らせ*/
 #main #oshirase section h4 {
   background-color: #ffffff;
