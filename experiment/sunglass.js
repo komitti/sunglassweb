@@ -4,7 +4,7 @@ icon.innerHTML =
 '<a href="https://twitter.com/ksu_scs">'+
 '<picture>'+
 '<source srcset="picture/Twitter_logo.webp" type="image/webp">'+
-'<img src="picture/Twitter_logo.jpg" alt="Twitter" width="50px" height="50px">'+
+'<img src="picture/Twitter_logo.png" alt="Twitter" width="50px" height="50px">'+
 '</picture>'+
 '</a>'+
 '</li>'+
@@ -12,7 +12,7 @@ icon.innerHTML =
 '<a href="https://www.instagram.com/sunglass.ksu/">'+
 '<picture>'+
 '<source srcset="picture/Insta_logo.webp" type="image/webp">'+
-'<img src="picture/Insta_logo.jpg" alt="Instagram" width="50px" height="50px">'+
+'<img src="picture/Insta_logo.png" alt="Instagram" width="50px" height="50px">'+
 '</picture>'+
 '</a>'+
 '</li>';
@@ -22,7 +22,7 @@ title.innerHTML =
 '<h2 id="sub-title">サイエンスコミュニケーション研究会</h2>'+
 '<picture>'+
 '<source srcset="picture/sunglass_logo.webp" type="image/webp">'+
-'<img src="picture/sunglass_logo.jpg" alt="Sunglasses" id="logo" width="87px" height="87px">'+
+'<img src="picture/sunglass_logo.png" alt="Sunglasses" id="logo" width="87px" height="87px">'+
 '</picture>'+
 '<h1>サングラス</h1>'+
 '<h2 id="title-english">sunglasses</h2>';
