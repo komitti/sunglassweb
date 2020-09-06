@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 li {
-  list-style: none;
+  list-style-position: inside;
 }
 
 
@@ -37,6 +37,7 @@ li {
   display: inline;
   float: right;
   padding: 7px;
+  list-style: none;
 }
 
 /*タイトル*/
@@ -63,6 +64,7 @@ li {
   display: inline-flex;
   background-color: #ffffff;
   margin: 3.5px;
+  list-style: none;
 }
 
 #menu li a {
@@ -94,7 +96,7 @@ li {
 
 #main h2 {
   background: linear-gradient(transparent 70%, limegreen 30%);
-  width: 943px;
+  width: 960px;
   margin-top: 40px;
   margin-bottom: 20px;
   padding-left: 20px;
@@ -192,17 +194,14 @@ li {
   box-shadow: 0 1px 6px #56638F;
 }
 
-#main .science .material li {
-  list-style: disc inside;
+#main .science .gaiyou li {
+  list-style-type: none;
 }
 
-#main .science .make li {
-  list-style: decimal inside;
+#main .science .play li {
+  list-style-type: none;
 }
 
-#main .science .attention li {
-  list-style: disc inside;
-}
 
 /*メンバー紹介*/
 #member .sciencelist {
@@ -227,6 +226,7 @@ li {
 
 #member .sciencelist ul li {
   font-size: 13.9px;
+  list-style-type: none;
 }
 
 
