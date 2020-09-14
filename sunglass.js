@@ -19,7 +19,7 @@ icon.innerHTML =
 
 var title = document.getElementById('title');
 title.innerHTML =
-'<h2 id="sub-title">サイエンスコミュニケーション研究会</h2>'+
+'<h2 id="sub-title">サイエンスコミュニケーション研究会 in 京都産業大学</h2>'+
 '<picture>'+
 '<source srcset="picture/sunglass_logo.webp" type="image/webp">'+
 '<img src="picture/sunglass_logo.png" alt="Sunglasses" id="logo" width="87px" height="87px">'+
