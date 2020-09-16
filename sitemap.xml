@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<!--  created with free sitemap generation system www.sitemapxml.jp  -->
 <url>
   <loc>https://sunglasshomepage.herokuapp.com/</loc>
-  <priority>1.0</priority>
 </url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/sunglass-home.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/sunglass-experiment.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/sunglass-kagakunomori.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/sunglass-katsudou.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/sunglass-member.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/sunglass-question.html</loc>
+</url>
+<!--kagakunomori-->
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/experiment/zinkoikura.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/experiment/sukerutontamago.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/experiment/suraimu.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/experiment/dairatanshi-.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/experiment/itodenwa.html</loc>
+</url>
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/experiment/phzikken.html</loc>
+</url>
+
 
 </urlset>
