@@ -120,6 +120,7 @@ li {
 #main #sunglassPV #video {
   text-align: center;
 }
+
 #main #sunglassPV video {
   box-shadow: 0 1px 6px #56638F;
 }
@@ -134,7 +135,6 @@ li {
 #main #oshirase section h4 a {
   padding: 0 30px;
 }
-
 
 /*活動記録*/
 #main #katsudoukiroku section h4 {
@@ -202,6 +202,26 @@ li {
   list-style-type: none;
 }
 
+/*科学の森（内容）*/
+#main #kagakunomori li{
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px #56638F;
+  border-radius: 9px/9px;
+  width: 650px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+  list-style: none;
+}
+
+#main #kagakunomori li a {
+  text-decoration: none;
+}
+
+#main #kagakunomori a:hover {
+  text-decoration: underline;
+  color: #008000;
+}
 
 /*メンバー紹介*/
 #member .sciencelist {
