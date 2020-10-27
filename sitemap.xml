@@ -23,7 +23,7 @@
 <url>
   <loc>https://sunglasshomepage.herokuapp.com/sunglass-question.html</loc>
 </url>
-<!--kagakunomori-->
+<!--experiment-->
 <url>
   <loc>https://sunglasshomepage.herokuapp.com/experiment/zinkoikura.html</loc>
 </url>
@@ -42,6 +42,9 @@
 <url>
   <loc>https://sunglasshomepage.herokuapp.com/experiment/phzikken.html</loc>
 </url>
-
+<!--scienceforest-->
+<url>
+  <loc>https://sunglasshomepage.herokuapp.com/scienceforest/202010.html</loc>
+</url>
 
 </urlset>
