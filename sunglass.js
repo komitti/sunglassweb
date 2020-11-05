@@ -38,6 +38,41 @@ menu.innerHTML =
 '<li><a href="sunglass-question.html">質問コーナー<div>question</div></a></li>'+
 '</ul>';
 
+var copyright = document.getElementById('picture');
+copyright.innerHTML =
+'<picture>'+
+'<source srcset="picture/beaker11.webp" type="image/webp">'+
+'<img src="picture/beaker11.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="picture/beaker12.webp" type="image/webp">'+
+'<img src="picture/beaker12.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="picture/beaker13.webp" type="image/webp">'+
+'<img src="picture/beaker13.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="picture/beaker14.webp" type="image/webp">'+
+'<img src="picture/beaker14.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="picture/beaker15.webp" type="image/webp">'+
+'<img src="picture/beaker15.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="picture/beaker16.webp" type="image/webp">'+
+'<img src="picture/beaker16.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="picture/beaker17.webp" type="image/webp">'+
+'<img src="picture/beaker17.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="picture/beaker18.webp" type="image/webp">'+
+'<img src="picture/beaker18.jpg" width="auto" height="30px">'+
+'</picture>';
+
 var copyright = document.getElementById('copyright');
 copyright.innerHTML =
 '<p><small>Copyright &copy; Sunglass ALL Rights Reserved</small></p>';
