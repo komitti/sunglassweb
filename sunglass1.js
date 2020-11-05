@@ -3,16 +3,16 @@ icon.innerHTML =
 '<li>'+
 '<a href="https://twitter.com/ksu_scs">'+
 '<picture>'+
-'<source srcset="picture/Twitter_logo.webp" type="image/webp">'+
-'<img src="picture/Twitter_logo.png" alt="Twitter" width="50px" height="50px">'+
+'<source srcset="../picture/Twitter_logo.webp" type="image/webp">'+
+'<img src="../picture/Twitter_logo.png" alt="Twitter" width="50px" height="50px">'+
 '</picture>'+
 '</a>'+
 '</li>'+
 '<li>'+
 '<a href="https://www.instagram.com/sunglass.ksu/">'+
 '<picture>'+
-'<source srcset="picture/Insta_logo.webp" type="image/webp">'+
-'<img src="picture/Insta_logo.png" alt="Instagram" width="50px" height="50px">'+
+'<source srcset="../picture/Insta_logo.webp" type="image/webp">'+
+'<img src="../picture/Insta_logo.png" alt="Instagram" width="50px" height="50px">'+
 '</picture>'+
 '</a>'+
 '</li>';
@@ -21,8 +21,8 @@ var title = document.getElementById('title');
 title.innerHTML =
 '<h2 id="sub-title">サイエンスコミュニケーション研究会 in 京都産業大学</h2>'+
 '<picture>'+
-'<source srcset="picture/sunglass_logo.webp" type="image/webp">'+
-'<img src="picture/sunglass_logo.png" alt="Sunglasses" id="logo" width="87px" height="87px">'+
+'<source srcset="../picture/sunglass_logo.webp" type="image/webp">'+
+'<img src="../picture/sunglass_logo.png" alt="Sunglasses" id="logo" width="87px" height="87px">'+
 '</picture>'+
 '<h1>サングラス</h1>'+
 '<h2 id="title-english">sunglasses</h2>';
@@ -37,6 +37,41 @@ menu.innerHTML =
 '<li><a href="../sunglass-member.html">メンバー紹介<div>member</div></a></li>'+
 '<li><a href="../sunglass-question.html">質問コーナー<div>question</div></a></li>'+
 '</ul>';
+
+var copyright = document.getElementById('picture');
+copyright.innerHTML =
+'<picture>'+
+'<source srcset="../picture/beaker11.webp" type="image/webp">'+
+'<img src="../picture/beaker11.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="../picture/beaker12.webp" type="image/webp">'+
+'<img src="../picture/beaker12.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="../picture/beaker13.webp" type="image/webp">'+
+'<img src="../picture/beaker13.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="../picture/beaker14.webp" type="image/webp">'+
+'<img src="../picture/beaker14.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="../picture/beaker15.webp" type="image/webp">'+
+'<img src="../picture/beaker15.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="../picture/beaker16.webp" type="image/webp">'+
+'<img src="../picture/beaker16.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="../picture/beaker17.webp" type="image/webp">'+
+'<img src="../picture/beaker17.jpg" width="auto" height="30px">'+
+'</picture>'+
+'<picture>'+
+'<source srcset="../picture/beaker18.webp" type="image/webp">'+
+'<img src="../picture/beaker18.jpg" width="auto" height="30px">'+
+'</picture>';
 
 var copyright = document.getElementById('copyright');
 copyright.innerHTML =
