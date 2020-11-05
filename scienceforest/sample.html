@@ -36,13 +36,13 @@
     <meta property="og:type" content="website" >
     <meta property="og:description" content="このサイトは京都産業大学のサングラスという活動団体について紹介しているサイトです。" >
     <meta property="og:url" content="https://sunglasshomepage.herokuapp.com/scienceforest/???.html" >
-    <meta property="og:image" content="picture/sunglass_logo.webp" >
+    <meta property="og:image" content="../picture/sunglass_logo.webp" >
 
     <!--favicon-->
-    <link rel="icon" type="image/x-icon" href="picture/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../picture/favicon.ico">
 
     <!--Web Clip-->
-    <link rel="apple-touch-icon" href="picture/apple-touch-icon.jpg">
+    <link rel="apple-touch-icon" href="../picture/apple-touch-icon.jpg">
 
     <!--CSS-->
     <link rel="stylesheet" href="../sunglass.css">
@@ -67,20 +67,39 @@
       </div>
 
       <div id="main"><!--メイン-->
-        <h2>???</h2>
-        <h3>〇低学年向け</h3>
-        <picture>
-          <source srcset="picture/202010te.webp" type="image/webp">
-          <img src="picture/202010te.jpg" alt="" width="960px" height="auto">
-        </picture>
-        <h3>〇高学年向け</h3>
-        <picture>
-          <source srcset="picture/202010ko.webp" type="image/webp">
-          <img src="picture/202010ko.jpg" alt="" width="960px" height="auto">
-        </picture>
+        <div id="kagakunaiyou">
+          <h2>???</h2>
+          <h3>〇低学年向け</h3>
+
+          <nav>
+            <a href="pdf/???te.pdf" download="?年?月号低学年向け　???">
+              <div class="download">ダウンロードはこちら</div>
+            </a>
+          </nav>
+          <picture>
+            <source srcset="picture/???te.webp" type="image/webp">
+            <img src="picture/???te.jpg" alt="???～低学年向け" width="960px" height="auto">
+          </picture>
+
+          <h3>〇高学年向け</h3>
+
+          <nav>
+            <a href="pdf/???ko.pdf" download="?年?月号高学年向け　???">
+              <div class="download">ダウンロードはこちら</div>
+            </a>
+          </nav>
+          <picture>
+            <source srcset="picture/???ko.webp" type="image/webp">
+            <img src="picture/???ko.jpg" alt="???～高学年向け" width="960px" height="auto">
+          </picture>
+
+          <h3>〇写真</h3>
+        </div>
       </div>
 
       <footer><!--フッター-->
+        <div id="picture">
+        </div>
         <div id="copyright">
         </div>
       </footer>
