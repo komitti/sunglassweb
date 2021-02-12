@@ -1,26 +1,13 @@
-<!DOCTYPE html> <!--ホーム-->
+<!DOCTYPE html>
 <html lang="ja">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178123915-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-178123915-1');
-    </script>
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NNVMTT4');</script>
-    <!-- End Google Tag Manager -->
+    <script type="text/javascript" src="google.js"></script>
 
     <!--measure-->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="Expires" content="2592000">
     <link rel="canonical" href="https://sunglasshomepage.herokuapp.com/sunglass-home.html">
@@ -47,102 +34,75 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="sunglass.css">
+    <link rel="stylesheet" href="background.css">
+
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
-
   <body>
-
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNVMTT4"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <div class="container">
+      <div class="header"></div>
+      <div class="nav"></div>
 
-    <div id="container">
-      <div id="header"><!--ヘッダー-->
-        <div id="icon"><!--SNS-->
+      <div class="main">
+        <div class="video">
+          <video src="picture/sunglass-intro.mp4" poster="picture/sunglass-intro-poster.jpg" controls></video>
         </div>
-
-        <div id="title"><!--タイトル-->
+        <div class="news">
+          <h2>お知らせ</h2>
+          <ul>
+            <template id="news">
+              <li><time></time><span></span></li>
+            </template>
+          </ul>
         </div>
-
-        <nav id="menu"><!--メニュー-->
-        </nav>
-      </div>
-
-      <div id="main"><!--メイン-->
-        <div id="summary">
-          <h2>サングラスの概要</h2>
-          <p>GSC(グローバルサイエンスコース)という理系学生を対象としたグローバルな人材の育成を目的とする団体に所属する学生のうち、
-            H30年度2月の海外サイエンスキャンプに参加した学生で結成した団体です。H30年3月から本格的に活動を開始しました。
-            科学の楽しさを一般の人に伝える「サイエンスコミュニケーション」を軸とした活動を進めていくことになりました。
-            子供達を主に対象とし、子供達が科学の面白さを知り知的好奇心を高めると同時に、プロジェクトを通して社会に貢献していきたいと考えています。
-            また、海外サイエンスキャンプの時に複数の参加メンバーがサンフランシスコのお土産屋でサングラスを買ったことより、思い出の「サングラス」を団体名とすることにしました。</p>
-        </div>
-
-        <div id="hope">
-          <h2>サングラスに入部したい方へ</h2>
-          <p>現在、サイエンスコミュニケーション研究会のサングラスは新入部員を募集しています！
-        科学に少しでも興味があれば、誰でも大歓迎です！連絡方法は、Twitter、Instagram、LINE、メールなど、どれでもオッケーです。
-        このwebページの下にサングラスのPVがあるので、ぜひ視聴してみて下さい！いつでもお待ちしています！</p>
-        </div>
-
-        <div id="sunglassPV">
-          <h2>サングラスのPV</h2>
-          <div id="video">
-              <video src="picture/sunglass-intro.mp4" poster="picture/sunglass-intro-poster.jpg" controls width="700px"></video>
+        <div class="subnews">
+          <div class="activity">
+            <h2>各種活動記録</h2>
+            <ul>
+              <template id="activity">
+                <li><a><time></time><span></span></a></li>
+              </template>
+            </ul>
+          </div>
+          <div class="website">
+            <h2>Webサイト</h2>
+            <ul>
+              <template id="website">
+                <li><details><summary><time></time><span></span></summary><p></p></details></li>
+              </template>
+            </ul>
           </div>
         </div>
-
-        <div id="oshirase">
-          <h2>お知らせ</h2>
-          <section>
-            <h4>2020年10月22日(木) 12:30 ~ 13:00　　サングラスについての説明会を行いました</h4>
-          </section>
-          <section>
-            <h4>2020年10月20日(火) 12:30 ~ 13:00　　サングラスについての説明会を行いました</h4>
-          </section>
-          <section>
-            <h4>2020年 9月 1日(火) 13:00 ~ 14:00　　理工系の先輩・後輩・同期と繋がれる座談会を行いました</h4>
-          </section>
-          <section>
-            <h4>2020年 8月28日(金) 13:00 ~ 14:00　　先輩に質問できる座談会を行いました</h4>
-          </section>
-        </div>
-
-        <div id="katsudoukiroku">
-          <h2>活動記録</h2>
-          <section>
-            <h4>2019年12月15日(日) <a href="">上賀茂ラボin上賀茂小学校</a></h4>
-          </section>
-          <section>
-            <h4>2019年10月 5日(土) <a href="">サタデージャンボリーin京都産業大学</a></h4>
-          </section>
-          <section>
-            <h4>2019年 6月23日(日) <a href="">むずびわざ大学in小豆島</a></h4>
-          </section>
-          <section>
-            <h4>2018年12月 9日(日) <a href="">上賀茂ラボin上賀茂小学校</a></h4>
-          </section>
-          <section>
-            <h4>2018年10月 6日(土) <a href="">サタデージャンボリーin京都産業大学</a></h4>
-          </section>
-          <section>
-            <h4>2018年 8月10日(金) <a href="">科学体験イベントin洛南イオン</a></h4>
-          </section>
-        </div>
-
-        <div id="beginner">
-          <h2>初心者におすすめな科学実験</h2>
-
+        <div class="otoiawase">
+          <h2>お問い合わせ</h2>
+          <p>サングラスウェブサイトをご覧いただき、誠にありがとうございます。お問い合わせにつきましては、
+            下記のメールアドレスへ送信してください。
+            <address class="mail-address">
+                連絡先：sunglass.ksu@gmail.com
+            </address>
+            <a href="https://twitter.com/ksu_scs" class="SNS" target="_blank">
+              <img src="picture/Twitter_logo.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/sunglass.ksu/" class="SNS" target="_blank">
+              <img src="picture/Insta_logo.png" alt="Instagram">
+            </a>
+          </p>
         </div>
       </div>
 
-      <footer><!--フッター-->
-        <div id="picture">
-        </div>
-        <div id="copyright">
-        </div>
-      </footer>
+      <div class="footer"></div>
+      <section id=background></section>
     </div>
-
-    <script type="text/javascript" src="sunglass.js"></script>
+    <script type="text/javascript" src="base.js"></script>
+    <script type="text/javascript" src="background.js"></script>
+    <script type="text/javascript" src="button.js"></script>
+    <script type="text/javascript" src="navigation.js"></script>
+    <script type="text/javascript" src="news.js"></script>
+    <script type="text/javascript" src="activity.js"></script>
+    <script type="text/javascript" src="website.js"></script>
   </body>
 </html>
