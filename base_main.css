@@ -35,23 +35,60 @@
   font-size: 20px;
 }
 
-.main .purpose a{
-  text-decoration: none;
-  color: #000000;
-}
-
-.main .purpose a:hover{
-  background-color: #eeeeee;
-}
-
 .main .act ul{
   margin-left: -20px;
 }
 
 
+
+
+.main .scienceforest h2{
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #666666;
+  font-size: 23px;
+}
+
+.main .scienceforest h3{
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #666666;
+  font-size: 16px;
+}
+
+.main .scienceforest img{
+  width: 100%;
+  border: solid 1px #000000;
+}
+
+.main .scienceforest .teiko{
+  display: block;
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.main .scienceforest .tei{
+  margin-top: 5px;
+}
+
+.main .scienceforest .teiko a{
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  color: #000000;
+  background-color: #dddddd;
+}
+
+.main .scienceforest .teiko a:hover{
+  background-color: #cccccc;
+}
+
 /*------------------------------------------------------------
 	767px以下のレイアウト
 ------------------------------------------------------------*/
 @media (max-width: 767px) {
-
+  .main .scienceforest .teiko{
+    padding: 5px;
+  }
 }
