@@ -114,7 +114,13 @@ body{
 .main{
   width: 90%;
   margin: 0 auto;
-  padding: 40px 0 30px;
+}
+
+.main h1{
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #666666;
+  font-size: 30px;
 }
 
 .main h2{
@@ -124,8 +130,23 @@ body{
   font-size: 18px;
 }
 
+.main .top_box{
+  background: #ffffff;
+  margin: 60px 0;
+  padding: 20px;
+  border: var(--main-border);
+}
+
+.main .middle_box{
+  background: #ffffff;
+  margin-bottom: 60px;
+  padding: 20px;
+  border: var(--main-border);
+}
+
 .main .video{
   text-align: center;
+  margin-top: 40px;
 }
 
 .main video{
@@ -133,7 +154,7 @@ body{
   max-width: 700px;
 }
 
-.main ul{
+.news ul, .activity ul, .website ul{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -147,13 +168,6 @@ body{
   font-weight: bold;
 }
 
-.main .news{
-  background: #ffffff;
-  margin: 60px 0;
-  padding: 20px;
-  border: var(--main-border);
-}
-
 .main .news li{
   display: block;
   padding: 5px;
@@ -161,13 +175,6 @@ body{
   color: #000000;
   font-size: 14px;
   text-decoration: none;
-}
-
-.main .activity{
-  background: #ffffff;
-  margin-bottom: 60px;
-  padding: 20px;
-  border: var(--main-border);
 }
 
 .main .activity li a{
@@ -183,13 +190,6 @@ body{
   background-color: #eeeeee;
 }
 
-.main .website{
-  background: #ffffff;
-  margin-bottom: 60px;
-  padding: 20px;
-  border: var(--main-border);
-}
-
 .main .website summary{
   cursor: pointer;
 }
@@ -197,7 +197,6 @@ body{
 .main .website summary:focus{
   outline: none;
 }
-
 
 .main .website li{
   display: block;
@@ -208,13 +207,6 @@ body{
   text-decoration: none;
 }
 
-.main .otoiawase{
-  background: #ffffff;
-  margin-bottom: 60px;
-  padding: 20px;
-  border: var(--main-border);
-}
-
 .main .otoiawase a{
   display: inline-block;
 }
@@ -222,6 +214,7 @@ body{
 .main .otoiawase img{
   vertical-align: middle;
   height: 40px;
+  margin: 5px;
 }
 
 /*------------------------------------------------------------
@@ -272,11 +265,11 @@ body{
 ------------------------------------------------------------*/
 @media (max-width: 767px) {
 
-  .main .news{
-    margin: 120px 0;
+  .main .top_box{
+    margin: 60px 0 120px;
   }
 
-  .main .activity, .main .website, .main .otoiawase{
+  .main .middle_box{
     margin-bottom: 120px;
   }
 
