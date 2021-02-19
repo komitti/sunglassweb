@@ -1,6 +1,6 @@
 const navigation = [
   {href: 'sunglass-home.html', src: 'picture/home_icon.png', cha: 'ホーム'},
-  //{href: 'sunglass-summary.html', src: 'picture/sunglass_logo.png', cha: '概要'},
+  {href: 'sunglass-summary.html', src: 'picture/sunglass_logo.png', cha: '概要'},
   //{href: 'sunglass-experiment.html', src: 'picture/experiment_icon.png', cha: '面白い科学実験'},
   //{href: 'sunglass-forest.html', src: 'picture/forest_icon.png', cha: '科学の森'},
   //{href: 'sunglass-activity.html', src: 'picture/activity_icon.png', cha: '各種活動記録'},
