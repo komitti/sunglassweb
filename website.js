@@ -1,5 +1,6 @@
 const website = [
-  {datetime: '2021-02-12', time: '2021/02/12', span: 'Ver.1.0.0', p: 'サングラスのホームページを投稿しました'},
+  {datetime: '2021-02-12', time: '2021/02/12', span: 'Ver.1.0.0', p: 'サングラスのホームページをリメイクし、投稿しました'},
+  {datetime: '2021-02-19', time: '2021/02/19', span: 'Ver.1.1.0', p: 'サングラスの概要ページを作成しました'}
 ];
 
 let web_li = document.querySelector('#website');
