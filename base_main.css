@@ -1,0 +1,47 @@
+:root{
+  --main-color: #33FF66;/*#33FF66*/
+  --main-border: solid 5px var(--main-color);
+  --main-border-botom: dotted 2px #dddddd;
+}
+
+
+.main .summary{
+  background: #ffffff;
+  margin: 60px 0;
+  padding: 20px;
+  border: var(--main-border);
+}
+
+.main .purpose{
+  background: #ffffff;
+  margin-bottom: 60px;
+  padding: 20px;
+  border: var(--main-border);
+}
+
+.main .act{
+  background: #ffffff;
+  margin-bottom: 60px;
+  padding: 20px;
+  border: var(--main-border);
+}
+
+.main .applicant{
+  background: #ffffff;
+  margin-bottom: 60px;
+  padding: 20px;
+  border: var(--main-border);
+}
+
+/*------------------------------------------------------------
+	767px以下のレイアウト
+------------------------------------------------------------*/
+@media (max-width: 767px) {
+  .main .summary{
+    margin: 120px 0;
+  }
+
+  .main .purpose, .main .act, .main .applicant{
+    margin-bottom: 120px;
+  }
+}
