@@ -1,47 +1,57 @@
+/*------------------------------------------------------------
+	初期設定
+------------------------------------------------------------*/
 :root{
   --main-color: #33FF66;/*#33FF66*/
   --main-border: solid 5px var(--main-color);
   --main-border-botom: dotted 2px #dddddd;
 }
 
-
-.main .summary{
-  background: #ffffff;
-  margin: 60px 0;
-  padding: 20px;
-  border: var(--main-border);
+.big{
+  font-size: larger;
 }
 
-.main .purpose{
-  background: #ffffff;
-  margin-bottom: 60px;
-  padding: 20px;
-  border: var(--main-border);
+.small{
+  font-size: 14px;
 }
 
-.main .act{
-  background: #ffffff;
-  margin-bottom: 60px;
-  padding: 20px;
-  border: var(--main-border);
+.red{
+  color: #ff0000;
 }
 
-.main .applicant{
-  background: #ffffff;
-  margin-bottom: 60px;
-  padding: 20px;
-  border: var(--main-border);
+.green{
+  color: #008000;
 }
+
+.blue{
+  color: #0000ff;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.main .emp p, .main .emp li{
+  font-size: 20px;
+}
+
+.main .purpose a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.main .purpose a:hover{
+  background-color: #eeeeee;
+}
+
+.main .act ul{
+  margin-left: -20px;
+}
+
 
 /*------------------------------------------------------------
 	767px以下のレイアウト
 ------------------------------------------------------------*/
 @media (max-width: 767px) {
-  .main .summary{
-    margin: 120px 0;
-  }
 
-  .main .purpose, .main .act, .main .applicant{
-    margin-bottom: 120px;
-  }
 }
